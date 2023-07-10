@@ -1,0 +1,35 @@
+slides > slide {
+    overflow-y: auto !important;
+    background-image: none; 
+}
+
+slides > slide:not(.nobackground):before {
+  background: none;
+}
+
+
+slides > slide:not(.nobackground):after {
+  content: "";
+}
+
+
+h2.small-header-2 {
+  font-size: 25pt;
+}
+
+
+/*
+
+hr {
+  border-color: #729fcf;
+}
+
+p {
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+}
+
+*/
